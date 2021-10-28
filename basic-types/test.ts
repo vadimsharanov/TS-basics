@@ -16,6 +16,7 @@ function test(a: string): number | string {
 const test2 = (a:number): void => {
 	return;
 }
+// tsconfig line 77
 
 d = d.map((item:string)=> item.toLowerCase());
 
