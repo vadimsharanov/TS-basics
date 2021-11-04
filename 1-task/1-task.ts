@@ -1,17 +1,17 @@
-interface description {
+interface Main {
   userId: number;
   id: number;
   title: string;
-  info: info;
-  tags: tag[];
+  info: Info;
+  tags: Tags[];
 }
 
-interface info {
+interface Info {
   desc: string;
   isActive: boolean;
 }
 
-interface tag {
+interface Tags {
   name: string;
   value: number;
 }
